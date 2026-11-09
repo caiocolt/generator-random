@@ -15,15 +15,19 @@ body {
     margin: 70px auto 0;
 }
 
+/* O nome já aparece na imagem do dado. O h1 fica escondido na tela,
+   mas continua no código para o Google e para leitores de tela. */
 h1 {
-    font-weight: 700;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    margin: 10px 0 30px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
 }
 
 h2 {
+    margin-top: 30px;
 
     font-weight: 400;
     font-size: 32px;
