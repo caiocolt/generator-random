@@ -2,6 +2,8 @@
 
 Projeto simples feito com **HTML, CSS e JavaScript** puro: você informa um número mínimo e um máximo, clica em **Sortear!** e o site mostra um número aleatório dentro desse intervalo.
 
+🔗 **Teste online:** https://caiocolt.github.io/generator-random/
+
 ## 🚀 Tecnologias
 
 - HTML5
