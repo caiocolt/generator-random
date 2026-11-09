@@ -6,9 +6,9 @@ function getValues() {
 
     const min = Math.ceil(document.querySelector('.input1').value)
     const max = Math.floor(document.querySelector('.input2').value)
-    const numeroSorteado = Math.floor(Math.random() * 30) + 1;
 
-    const result = Math.floor(Math.random() * (max - min) + min)
+    // + 1 para o número máximo também poder ser sorteado
+    const result = Math.floor(Math.random() * (max - min + 1) + min)
 
 
 

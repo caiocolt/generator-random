@@ -15,7 +15,13 @@ body {
     margin: 70px auto 0;
 }
 
-
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 30px;
+}
 
 h2 {
 
