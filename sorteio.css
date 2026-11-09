@@ -1,0 +1,71 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.img-dado {
+    width: 26%;
+    display: block;
+    margin: 70px auto 0;
+}
+
+
+
+h2 {
+
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+
+}
+
+.inputs-value {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.input1 {
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 14px;
+    border-width: 1px;
+    opacity: 1;
+    padding-left: 15px;
+    background-color: rgba(138, 93, 93, 0.582);
+    color: white;
+
+}
+
+.input2 {
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 14px;
+    border-width: 1px;
+    opacity: 1;
+    padding-left: 15px;
+    background-color: rgba(138, 93, 93, 0.582);
+    color: white;
+
+}
+
+.srt-btn {
+
+    width: 242px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 1;
+    background: #AEC346;
+    margin: 25px auto;
+    display: block;
+
+}
